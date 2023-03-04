@@ -4,8 +4,6 @@ private GUI gui;
     public Jeu() {
         creerCarte();
         gui = null;
-
-        ///
     }
 
     public void setGUI( GUI g) { gui = g; afficherMessageDeBienvenue(); }
