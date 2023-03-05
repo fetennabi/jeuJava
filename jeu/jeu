@@ -22,6 +22,9 @@ private GUI gui;
         zones[3].ajouteSortie(Sortie.NORD, zones[1]);
         zones[1].ajouteSortie(Sortie.SUD, zones[3]);
         zoneCourante = zones[1]; 
+        system.out.println("hello");
+       
+
     }
 
     private void afficherLocalisation() {
